@@ -5,9 +5,7 @@ function App() {
   return (
     <div className="App">
      
-        <p>
-          HelloWorld
-        </p>
+      <h2>Калькулятор</h2>
        
     </div>
   );
