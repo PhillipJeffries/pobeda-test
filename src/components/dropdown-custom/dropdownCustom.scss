@@ -1,0 +1,32 @@
+.dd-wrapper{
+    .dd-list-wrapper{
+        position: relative;
+    }
+
+    .dd-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #D4D4D4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 8px 16px 8px 16px;
+    }
+    .dd-list{
+        list-style: none;
+        position: absolute;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: 1px solid #D4D4D4;
+        box-sizing: border-box;
+        border-radius: 5px;
+        &-item {
+            padding: 8px 16px 8px 16px;
+            background-color: rgba(255, 255, 255, 0.808);
+            &:hover{
+                background-color: #f0f0f0e0;
+            }
+        }
+    }
+}
